@@ -1,0 +1,58 @@
+.nav-container {
+    background: #23425a;
+    border-radius: 3px 0 0 3px;
+}
+
+.nav-container ul {
+    padding: 0;
+    display: grid;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+}
+
+.nav-container ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0;
+    width: 100%;
+    color: #fff;
+}
+
+.nav-container ul li.active {
+    background: #d8dadc;
+    color: unset;
+}
+
+.active .nav-container ul li.active {
+    background: #23425a;
+    display: block;
+    padding: 10px 0 10px 10px;
+    color: #fff;
+}
+
+.nav-container span {
+    display: none;
+}
+
+.active .nav-container {
+    justify-content: center;
+    background: #d8dadc;
+}
+
+.active .nav-container ul {
+    justify-content: start;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.active .nav-container ul li {
+    text-align: left;
+    padding: 10px 5px;
+    color: #000;
+}
+
+.active .nav-container ul li span {
+    display: contents;
+}

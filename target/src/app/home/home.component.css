@@ -1,0 +1,40 @@
+.app-base {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.top-bar {
+    height: 5%;
+}
+
+.body-container {
+    height: 95%;
+    display: flex;
+}
+
+.side-nav, .app-container {
+    height: 100%;
+}
+
+.side-nav {
+    width: 5%;
+    display: grid;
+}
+
+.side-nav.active {
+    width: 20%;
+}
+
+.app-container {
+    width: 95%;
+}
+
+.app-container .active {
+    width: 80%;
+}
+
+.app-container .app-inner-container {
+    padding: 0 3px 3px 0;
+    background: #eaeef3;
+}

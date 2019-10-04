@@ -1,0 +1,7 @@
+<div class="ui-g-12 nav-container full-height ui-g-nopad">
+    <ul>
+        <li *ngFor="let menu of menuData" class="{{menu.icon}}" [class.active]="!menu.disabled" (click)="menuClick(menu)">
+            <span>{{menu.label}}</span>
+        </li>
+    </ul>
+</div>

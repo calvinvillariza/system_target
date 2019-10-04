@@ -1,0 +1,22 @@
+<div class="ui-g-12 ui-g-nopad app-base">
+    <div class="ui-g-12 ui-g-nopad top-bar">
+        <p-toolbar styleClass="full-height">
+            <div class="ui-toolbar-group-left">
+                <button type="button" pButton icon="pi pi-bars" (click)="sideNavToggle()"></button>
+            </div>
+            <div class="ui-toolbar-group-right"></div>
+        </p-toolbar>
+    </div>
+
+    <div class="ui-g-12 ui-g-nopad body-container">
+        <div class="side-nav" [class.active]="isNavActive">
+            <nav></nav>
+        </div>
+
+        <div class="app-container" [class.active]="isNavActive">
+            <div class="app-inner-container full-height full-width">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>
