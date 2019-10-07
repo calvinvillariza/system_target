@@ -1,0 +1,82 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe F:\CALVIN_FILES\nodejs\phase_two\system_target\target\node_modules\yarn\bin\yarn.js add web-push
+
+PATH: 
+  C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files\iis express\PHP\v7.3;C:\Windows\system32\inetsrv;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft\Web Platf;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Users\JohnCalvinVillariza\AppData\Local\Microsoft\WindowsApps;C:\Users\JohnCalvinVillariza\AppData\Roaming\npm;C:\Users\JohnCalvinVillariza\AppData\Roaming\Composer\vendor\bin;C:\Users\JohnCalvinVillariza\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\JohnCalvinVillariza\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.19.0
+
+Node version: 
+  10.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (internal/stream_base_commons.js:111:27)
+
+npm manifest: 
+  {
+    "name": "target-cloud",
+    "version": "0.0.0",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/animations": "8.2.2",
+      "@angular/cdk": "8.1.3",
+      "@angular/common": "8.2.2",
+      "@angular/compiler": "8.2.2",
+      "@angular/core": "8.2.2",
+      "@angular/forms": "8.2.2",
+      "@angular/platform-browser": "8.2.2",
+      "@angular/platform-browser-dynamic": "8.2.2",
+      "@angular/pwa": "^0.6.8",
+      "@angular/router": "8.2.2",
+      "@angular/service-worker": "8.2.2",
+      "chart.js": "^2.8.0",
+      "core-js": "3.2.1",
+      "primeicons": "^2.0.0",
+      "primeng": "^8.0.3",
+      "quill": "^1.3.7",
+      "rxjs": "6.5.2",
+      "tslib": "1.10.0",
+      "yarn": "^1.19.0",
+      "zone.js": "0.9.1"
+    },
+    "devDependencies": {
+      "@angular-devkit/build-angular": "0.802.2",
+      "@angular/cli": "8.2.2",
+      "@angular/compiler-cli": "8.2.2",
+      "@angular/language-service": "8.2.2",
+      "@types/node": "12.7.2",
+      "@types/jasmine": "3.4.0",
+      "@types/jasminewd2": "2.0.6",
+      "codelyzer": "5.1.0",
+      "jasmine-core": "3.4.0",
+      "jasmine-spec-reporter": "4.2.1",
+      "karma": "4.2.0",
+      "karma-chrome-launcher": "3.1.0",
+      "karma-coverage-istanbul-reporter": "2.1.0",
+      "karma-jasmine": "2.0.1",
+      "karma-jasmine-html-reporter": "1.4.2",
+      "protractor": "5.4.2",
+      "ts-node": "8.3.0",
+      "tslint": "5.18.0",
+      "typescript": "3.5.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

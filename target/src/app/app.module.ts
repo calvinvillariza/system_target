@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { RouterModule } from '@angular/router';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { ApiService } from '@services/api.service';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { environment } from '../environments/environment';
     AppRoutingModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [],
+  providers: [
+    ApiService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
